@@ -1,45 +1,9 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <link rel="stylesheet" href="style.css">
-    </head>
-      <header>
-        <article>
-            <header>
-                <div class="navigation"></div>
-                <div class="inline-block logo">
-                    <img src="Screen Shot 2021-12-17 at 4.10.12 PM.png" alt="Celeste" width="500" height="600">  
-                </div>
-                <nav>
-                    <div class="inline-block">
-                    <a href="/html/">about</a> |
-                    <a href="/css/">skills</a> |
-                    <a href="/js/">work</a> |
-                    <a href="/python/">contact</a>
-                    </div></nav> 
-              <h1>Hello, my name is Celeste Alcon</h1>
-              <p>I'm a UX Designer who is passionate about 
-                  inspiring others through creating engaging, 
-                  inclusive experiences</p>
-            </header>
-            <section>
-                <div class="heroimg">   
-                </div>
-            </section>
-            <footer>
-            <div class="content">
-                <ul>
-                    <li>about</li>
-                    <li>skills</li>
-                    <li>work</li>
-                    <li>contact</li>
-                  </ul>
-            </div>
-        </footer>
-          </article>
-    </header>
-      <body>
-
-    
-    </body>
-</html>
+.inline-block {
+display: inline-block;
+vertical-align:top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+.

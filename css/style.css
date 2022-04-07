@@ -1,0 +1,25 @@
+.inline-block {
+display: inline-block;
+vertical-align:top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+
+.flexContainer {
+  display: flex;  
+}
+.flexchildren {
+    width: 33%;
+    margin: 15%;
+    padding: 10%
+}
+
+.workGrid {
+    display:grid;
+    grid-template-areas: 80px 200px auto 40px;
+}
+.myWork {
+    grid-area: 80px
+}

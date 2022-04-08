@@ -11,14 +11,36 @@ h1 {
     color: #41436A;
     font-family: 'playfair display';
     font-weight: bold;
+
 }
 h3 {
     color: #41436A;
     font-weight: medium;
 }
+h4 {
+    color: #984063;
+    font-family: 'playfair display';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    float: right;
+}
 p {
     color: #984063;
-
+    font-size: 18px;
+}
+p1 {
+    color: #984063;
+    font-size: 18px;
+    float: right;
+}
+button {
+    background-color: white;
+    border-color: #984063;
+    border-width: 1.5px;
+    color: #984063;
+    border-radius: 10px;
+ 
 }
 .inline-block {
 display: inline-block;
@@ -42,9 +64,26 @@ header {
 }
 
 .workGrid {
-    display:grid;
-    grid-template-areas: 20px 20px 20px 20px;
+    grid-area: 20px;
+    display: inline-block;
+    vertical-align:top;
+    padding:10%;
+    
 }
 .myWork {
-    grid-area: 20px;
+    display: grid;
+    grid-template-areas: 20px 20px 20px 20px;
+    width: 33%;
+    margin: 10%;
+    padding: -0.5px;
+} 
+img {
+    float: left;
+}
+
+.myDiv1 {
+    float: left;
+}
+.myDiv2 {
+    float: right;
 }
